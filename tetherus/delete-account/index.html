@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Delete Your Account – Tether Us</title>
+  <meta name="description" content="How to request deletion of your Tether Us account and data.">
+  <style>
+    :root { --bg:#ffffff; --fg:#222222; --muted:#5f6368; --link:#0b57d0; --line:#e0e0e0; --card:#f6f7f9; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#121212; --fg:#e8e8e8; --muted:#a0a4a8; --link:#8ab4f8; --line:#333333; --card:#1c1c1e; }
+    }
+    body { background:var(--bg); color:var(--fg); font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; max-width:760px; margin:0 auto; padding:24px 20px 64px; line-height:1.65; }
+    h1 { font-size:1.9rem; margin-bottom:.25rem; }
+    h2 { font-size:1.25rem; margin-top:2.2rem; padding-top:.5rem; border-top:1px solid var(--line); }
+    a { color:var(--link); }
+    .meta { color:var(--muted); font-size:.95rem; margin-top:0; }
+    .box { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:12px 16px; margin:16px 0; }
+    .table-wrap { overflow-x:auto; }
+    table { border-collapse:collapse; width:100%; font-size:.95rem; }
+    th, td { text-align:left; vertical-align:top; padding:8px 10px; border:1px solid var(--line); }
+    th { background:var(--card); }
+    ul, ol { padding-left:1.25rem; }
+  </style>
+</head>
+<body>
+
+  <h1>Delete Your Tether Us Account</h1>
+  <p class="meta">App: Tether Us · Developer: Shrishu Innovations Private Limited · Last updated: 5 October 2026</p>
+
+  <p>
+    You can delete your Tether Us account and the data associated with it at any time. This page explains how,
+    what is deleted, and what happens afterwards.
+  </p>
+
+  <h2>How to request deletion</h2>
+
+  <p>Deletion requests are handled by email:</p>
+  <ol>
+    <li>Send an email to <a href="mailto:shrishuinnovations@gmail.com?subject=Tether%20Us%20account%20deletion%20request">shrishuinnovations@gmail.com</a> with the subject <strong>"Tether Us account deletion request"</strong>.</li>
+    <li>Send it from the email address you registered with, so we can verify the account belongs to you. If you cannot, tell us the registered email address and we may ask for additional verification.</li>
+    <li>We will confirm once your account and data have been deleted.</li>
+  </ol>
+
+  <h2>What is deleted</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Data</th><th>Where it is stored</th><th>Action</th></tr></thead>
+      <tbody>
+        <tr><td>Login account (email and password)</td><td>Firebase Authentication</td><td>Deleted</td></tr>
+        <tr><td>Name, email, partner email, push notification token, online status and last seen</td><td>Cloud Firestore</td><td>Deleted</td></tr>
+        <tr><td>Chat messages, reactions, read/delivered status</td><td>Cloud Firestore</td><td>Deleted</td></tr>
+        <tr><td>Nudges (drawings)</td><td>Cloud Firestore</td><td>Deleted</td></tr>
+        <tr><td>Voice messages (audio files and their links)</td><td>Cloudinary and Cloud Firestore</td><td>Deleted</td></tr>
+        <tr><td>Call history and call state</td><td>Cloud Firestore</td><td>Deleted</td></tr>
+        <tr><td>Live location data</td><td>Cloud Firestore</td><td>Deleted</td></tr>
+        <tr><td>Pairing codes</td><td>Cloud Firestore</td><td>Deleted (they also expire automatically after ten minutes)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>What is not covered</h2>
+  <ul>
+    <li><strong>Data on your own device</strong> (local drawings, cached nudges, and "Remember me" credentials, if enabled) is removed when you log out and uninstall the app, or clear its storage in your device settings.</li>
+    <li><strong>Drawings you saved to your gallery</strong> stay in your gallery until you delete them yourself.</li>
+    <li><strong>Content saved by your partner</strong> on their device is outside our control.</li>
+    <li>Live audio and video from calls is never stored, so there is nothing to delete.</li>
+    <li>Our service providers may keep short-lived technical logs (such as IP address) for security and operations under their own policies. These are not linked to a retained copy of your account content.</li>
+  </ul>
+
+  <h2>Timing</h2>
+  <p>
+    Once your request is verified, we delete your account and associated data from our systems within
+    <strong>30 days</strong>. Deletion is permanent and cannot be undone.
+  </p>
+
+  <h2>Effect on your partner</h2>
+  <p>
+    Chats and nudges are shared between two connected partners. When your account is deleted, content you sent
+    may no longer be visible to your partner, and the connection between your accounts is removed.
+  </p>
+
+  <h2>Partial deletion</h2>
+  <p>
+    If you only want some data removed (for example, your live location, or specific voice messages) without
+    deleting your whole account, email <a href="mailto:shrishuinnovations@gmail.com">shrishuinnovations@gmail.com</a> and tell us what to remove.
+    You can also turn off location sharing at any time inside the app.
+  </p>
+
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:shrishuinnovations@gmail.com">shrishuinnovations@gmail.com</a></p>
+
+</body>
+</html>
