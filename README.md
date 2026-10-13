@@ -9,7 +9,7 @@ This repository is served as a static website using GitHub Pages. Each app has i
 | App | Privacy policy | Account deletion | Child safety standards |
 |---|---|---|---|
 | Tether Us | `/tetherus/` | `/tetherus/delete-account/` | `/tetherus/child-safety/` |
-| Employeable | `/employeable/` | Not yet published | Not required |
+| Employeable | `/employeable/` | `/employeable/delete-account/` | Not required |
 
 Paths are relative to the root of the published site.
 
@@ -19,7 +19,9 @@ Paths are relative to the root of the published site.
 .
 ├── README.md
 ├── employeable/
-│   └── index.html                 # Privacy policy
+│   ├── index.html                 # Privacy policy
+│   └── delete-account/
+│       └── index.html             # Account deletion instructions
 └── tetherus/
     ├── index.html                 # Privacy policy
     ├── delete-account/
